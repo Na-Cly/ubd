@@ -23,7 +23,7 @@ def allFinds(document):
 
 document = Document('test.docx')
 
-#replace with function that parses the text file.
+#replace with function that parses the json file.
 repDict = {'xxS1xx':'replacement s1','xxT1xx':'Replacement t1'}
 print(allFinds(document))
 
