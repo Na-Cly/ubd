@@ -34,10 +34,10 @@ def generateCodeList(document, regex):
 	return repList
 
 #uses the document codes to create a suitable json file.
-def generateJson(filename, numFiles):
+"""def generateJson(filename, numFiles):
 	json_file = open(filename,'a')
 	
 	for i in range(0, numFiles):
 		for item in generateCodeList(document,regex):
 			#in here we need to create our json
-	
+	"""
