@@ -20,6 +20,7 @@ def allFinds(document):
 		repList.remove("")
 	return repList
 	
+#github test
 document = Document('test.docx')
 
 #replace with function that parses the text file.
