@@ -4,17 +4,17 @@ regex = re.compile(r'xx[A-Za-z0-9]{2}xx')
 import jsonLoader
 template = 'template.docx'
 
-def compareText(text, repDict):
+def compareText(text, repDict, key):
 	for i in range(0, len(repDict)):
-		if repDict[i]['code'] in text:
-			text = text.replace(repDict[i]['code'],repDict[i]['answer'])
+		if repDict[i][key] in text:
+			text = text.replace(repDict[i][key],repDict[i]['answer'])
 	return text
 def replaceAll(document,repDict):
 	for table in document.tables:
 		for i in range(0,len(table.rows)-1):
 			for j in range(0, len(table.columns)-1):
 					storeText = str(table.cell(i,j).text)
-					table.cell(i,j).text = compareText(storeText, repDict)
+					table.cell(i,j).text = compareText(storeText, repDict,'code')
 					
 if len(sys.argv) >= 2:
 	#json file

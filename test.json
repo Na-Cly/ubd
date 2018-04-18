@@ -1,12 +1,17 @@
 {
 "test.docx":[
-    {"code":"xxT1xx", "question":"Example Question", "answer":"Example Answer"}, 
-    {"code":"xxT2xx", "question":"Example Question", "answer":"Example Answer"}, 
-    {"code":"xxT3xx", "question":"Example Question", "answer":"Example Answer"}
-],
-"test3.docx":[
-    {"code":"xxT1xx", "question":"Example Question", "answer":"Example Answer"}, 
-    {"code":"xxT2xx", "question":"Example Question", "answer":"Example Answer"}, 
-    {"code":"xxT3xx", "question":"Example Question", "answer":"Example Answer"}
+    {"code":"xxS1xx", "question":"Establish Goals", "answer":""}, 
+    {"code":"xxT1xx", "question":"Students will be able to independently use their learning to: Goals", "answer":""}, 
+    {"code":"xxT2xx", "question":"Students will be able to independently use their learning to: Tasks", "answer":""}, 
+    {"code":"xxT3xx", "question":"Students will understand: ", "answer":""},
+    {"code":"xxT4xx", "question":"Students will keep considering: ", "answer":""},
+    {"code":"xxT5xx", "question":"Students will know: ", "answer":""},
+    {"code":"xxT6xx", "question":"Students will be skilled at: ", "answer":""},
+    {"code":"xxE1xx", "question":"Performance Tasks: Evidence ", "answer":""},
+    {"code":"xxE2xx", "question":"Performance Tasks: Other Evidence ", "answer":""},
+    {"code":"xxL1xx", "question":"Performance Tasks: Other Evidence ", "answer":""},
+    {"code":"xxL2xx", "question":"Are all three types of goals (acquisition, meaning, and transfer) addressed in the learning plan?\nDoes the learning plan reflect principles of learning and best practices?\nIs there tight alignment across all three stages? ", "answer":""},
+    {"code":"xxL3xx", "question":"How will you monitor students' progress towards acquisition, meaning-making, and transfer, during lesson events?\nWhat are potential rough spots and student misunderstandings?\nHow will students get the feedback they need and opportunities to make use of it?", "answer":""}
+	
 ]
 }
