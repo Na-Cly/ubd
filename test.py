@@ -1,5 +1,5 @@
 from docx import Document
-import re
+import re, sys
 regex = re.compile(r'xx[A-Za-z0-9]{2}xx')
 
 #returns a list of every coded entry in the UBD template document.
@@ -20,9 +20,8 @@ def allFinds(document):
 		repList.remove("")
 	return repList
 	
-
-document = Document('test.docx')
-
+if len(sys.argv) >= 2:
+	document = Document(sys.argv[1])
 #replace with function that parses the json file.
 repDict = {'xxS1xx':'replacement s1','xxT1xx':'Replacement t1'}
 print(allFinds(document))
